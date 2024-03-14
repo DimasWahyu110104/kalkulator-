@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <form class="kalkulator" name="calc">
+      <input class="value" type="text" name="text" readonly="" />
+      <span class="num clear" onclick="document.calc.txt.velue =''">C</span>
+      <span class="num" onclick="document.calc.txt.velue +='/'">/</span>
+      <span class="num" onclick="document.calc.txt.velue +='*'">*</span>
+      <span class="num" onclick="document.calc.txt.velue +='7'">7</span>
+      <span class="num" onclick="document.calc.txt.velue +='8'">8</span>
+      <span class="num" onclick="document.calc.txt.velue +='9'">9</span>
+      <span class="num" onclick="document.calc.txt.velue +='-'">-</span>
+      <span class="num" onclick="document.calc.txt.velue +='4'">4</span>
+      <span class="num" onclick="document.calc.txt.velue +='5'">5</span>
+      <span class="num" onclick="document.calc.txt.velue +='6'">6</span>
+      <span class="num plus" onclick="document.calc.txt.velue +='+'">+</span>
+      <span class="num" onclick="document.calc.txt.velue +='1'">1</span>
+      <span class="num" onclick="document.calc.txt.velue +='2'">2</span>
+      <span class="num" onclick="document.calc.txt.velue +='3'">3</span>
+      <span class="num" onclick="document.calc.txt.velue +='0'">0</span>
+      <span class="num" onclick="document.calc.txt.velue +='00'">00</span>
+      <span class="num" onclick="document.calc.txt.velue +='.'">.</span>
+      <span
+        class="num equal"
+        onclick="document.calc.txt.velue =eval(calc.txt.velue)"
+        >=</span
+      >
+    </form>
+  </body>
+</html>
